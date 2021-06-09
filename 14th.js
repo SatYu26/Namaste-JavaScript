@@ -14,13 +14,11 @@
 // });
 
 function attachEventListners() {
-    let count = 0;
+  let count = 0;
 
-    document.getElementById("clickMe")
-        .addEventListener("click", function xyz() {
-            console.log("button clicked", ++count);
-        });
+  document.getElementById("clickMe").addEventListener("click", function xyz() {
+    console.log("button clicked", ++count);
+  });
 }
 
 attachEventListners();
-
